@@ -4,7 +4,6 @@ Module['arguments'] = [
   '-machine', 'virt',
   '-bios', '/pack/opensbi-riscv32-generic-fw_dynamic.bin',
   '-kernel', '/pack/kernel.elf',
-  '-serial', 'stdio',
 
   '-drive', 'if=none,format=raw,file=/pack/fs.ext4,id=hd0',
   '-device', 'virtio-blk-device,drive=hd0',
