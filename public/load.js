@@ -107,7 +107,6 @@ var REMOTE_PACKAGE_SIZE = metadata['remote_package_size'];
         if (!check) throw msg + new Error().stack;
       }
 Module['FS_createPath']("/", "pack", true, true);
-Module['FS_createPath']("/pack", "pack", true, true);
 
       /** @constructor */
       function DataRequest(start, end, audio) {
@@ -175,7 +174,7 @@ Module['FS_createPath']("/pack", "pack", true, true);
     }
 
     }
-    loadPackage({"files": [{"filename": "/pack/fs.ext4", "start": 0, "end": 16777216}, {"filename": "/pack/kernel.elf", "start": 16777216, "end": 17014328}, {"filename": "/pack/opensbi-riscv32-generic-fw_dynamic.bin", "start": 17014328, "end": 17137400}, {"filename": "/pack/pack/fs.ext4", "start": 17137400, "end": 33914616}, {"filename": "/pack/pack/kernel.elf", "start": 33914616, "end": 34152208}, {"filename": "/pack/pack/opensbi-riscv32-generic-fw_dynamic.bin", "start": 34152208, "end": 34275280}], "remote_package_size": 34275280});
+    loadPackage({"files": [{"filename": "/pack/fs.ext4", "start": 0, "end": 16777216}, {"filename": "/pack/kernel.elf", "start": 16777216, "end": 17008680}, {"filename": "/pack/opensbi-riscv32-generic-fw_dynamic.bin", "start": 17008680, "end": 17131752}], "remote_package_size": 17131752});
 
   })();
 
