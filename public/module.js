@@ -1,6 +1,8 @@
 Module['arguments'] = [
-  '-nographic',
-  '-m', '128M',
+  '-display', 'none',
+  '-monitor', 'none',
+  '-serial', 'stdio',
+
   '-machine', 'virt',
   '-bios', '/pack/opensbi-riscv32-generic-fw_dynamic.bin',
   '-kernel', '/pack/kernel.elf',
